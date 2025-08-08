@@ -27,7 +27,7 @@ const App = () => {
     <div id="main">
       {/* Do not remove the main div */}
       {isLoggedIn ? (
-        <h1>Welcome, User!</h1>
+        <h1>Parent Component</h1>
       ) : (
         <LoginForm isLoggedIn={isLoggedIn} onLogin={handleLogin} />
       )}
@@ -36,4 +36,5 @@ const App = () => {
 };
 
 export default App;
+
 
